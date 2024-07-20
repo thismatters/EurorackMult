@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/pstiverson/Projects/AR-808/hardware/mult/mult.kicad_sch</source>
+    <date>Sat 20 Jul 2024 09:58:35 AM CDT</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mult.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22u 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9fc8849-70d7-4a56-bd6a-15616ed48d46</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22u 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a73375f2-a7ca-41b5-85ac-08563414bacb</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4594d27-dcde-412e-999a-7fb4bb538c12</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a9ef617-0ba1-43c7-969f-dd3a2246ce88</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="PartNum">863-BAT54SLT1G</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="Eurorack" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="863-BAT54SLT1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c13cd64-e0f3-4709-866d-a03b7b2d7755</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="PartNum">863-BAT54SLT1G</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="Eurorack" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="863-BAT54SLT1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7297118c-414e-4a4b-a4ff-dbcccb011e6d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Eurorack:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PartNum">A-2939</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2939"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a89269ee-1fac-47ce-af71-1bd55729d879</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>363da21b-4b77-4e8f-afd7-6ca7dd82ed26</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2525782d-2e24-45f7-8edf-0298e5f7fb60</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c811e64b-dded-4d6d-8246-ebcbb17e437d</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c4d653b-baab-4d4a-91b9-45dc8447d4d1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f936928-ecf6-4699-a127-4426733cdadc</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e73900c9-1ea7-4790-86fb-bf883878c6b3</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b80af9e-6667-42aa-a104-ffbec4a0d75b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>Eurorack:AudioJack2_Tayda_A-2566</footprint>
+      <fields>
+        <field name="PartNum">A-2566</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Eurorack" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="PartNum" value="A-2566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>580f2a10-e8dc-44ab-a393-00f173d66670</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93be8014-5bf3-4f2d-9984-880eec29544e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f1699df-7879-4240-9dae-cdcc6edad49e</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>835327e5-899c-475e-ad1b-31dfef0a90f6</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6445256b-b38f-4a30-b560-a74ccd731046</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>213cea20-04bf-42b7-b4d3-3defa7e92877</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f5f8e50-18c3-4e5b-8fdd-11dc1fe427d1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9180390-ba56-454e-b233-dffc606fcf98</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67a39371-cbe9-4c23-91ef-6279bb65af46</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d1015bb-ef29-4c25-800f-cb0724cd642f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42f6a241-e2f0-4254-9af0-110a48446b8a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb718c68-281f-4068-a5cc-8f127099cf47</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53e3498c-1efb-4b33-86fc-158bea82b2f8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b685d38-65c2-49ea-a736-482eee1ac110</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f53493ae-cf54-442d-a856-1b79c4cd01ff</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab72ae2-4b66-46f0-943b-40678b833d8a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38b52044-3556-4786-804f-a89f9a07afb2</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c984ff5c-8664-4c38-8ad0-98aeb33ae2aa</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00f0455e-0d46-48e6-85e0-a860bd4407ea</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="PartNum">595-TL074CDR</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="595-TL074CDR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd91ab54-c7f9-401a-a4d8-3f97e4aab904 c6c8e60e-0f8f-4e75-847b-d330f5767070 362b8f85-7dad-4163-90dc-8b9d21a7538c dbafda5b-7cf3-4a30-aff5-146b09a2e2f3 0ce1d15f-5594-4593-a61e-18c767f84149</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="PartNum">595-TL074CDR</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="PartNum" value="595-TL074CDR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5a5f303-94cc-4e1b-9932-6dac567713c2 a8e980fd-49e9-4263-ab12-a1bbd87f5f6b 93c5bf0c-01b5-4c92-b04e-eef074e15a4f 71586128-fbfd-4adc-b4e7-cf7b3155631e 07cc3859-ef5d-4de6-8f4f-c6e22bd63625</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="TL074">
+      <description>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Eurorack" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+        <field name="PartNum">A-2566</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Eurorack" part="BAT54S">
+      <description>Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds11005.pdf</field>
+        <field name="Vendor">Mouser</field>
+        <field name="PartNum">863-BAT54SLT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Eurorack" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+        <field name="PartNum">A-2939</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Eurorack" part="MountingHole_Pad_Output">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad_Output</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Eurorack">
+      <uri>/home/pstiverson/Projects/AR-808/hardware/EurorackKiCAD/Eurorack.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="4" name="/GND'">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="S" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J4" pin="S" pintype="passive"/>
+      <node ref="J5" pin="S" pintype="passive"/>
+      <node ref="J6" pin="S" pintype="passive"/>
+      <node ref="J7" pin="S" pintype="passive"/>
+      <node ref="J8" pin="S" pintype="passive"/>
+      <node ref="J9" pin="S" pintype="passive"/>
+    </net>
+    <net code="5" name="/IN0">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="J6" pin="TN" pintype="passive"/>
+    </net>
+    <net code="6" name="/IN0'">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/IN1">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="T" pintype="passive"/>
+    </net>
+    <net code="8" name="/IN1'">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/OUT0">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="T" pintype="passive"/>
+    </net>
+    <net code="10" name="/OUT0'">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/OUT1">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="T" pintype="passive"/>
+    </net>
+    <net code="12" name="/OUT1'">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/OUT2">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="T" pintype="passive"/>
+    </net>
+    <net code="14" name="/OUT2'">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/OUT3">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="T" pintype="passive"/>
+    </net>
+    <net code="16" name="/OUT3'">
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/OUT4">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="T" pintype="passive"/>
+    </net>
+    <net code="18" name="/OUT4'">
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/OUT5">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="T" pintype="passive"/>
+    </net>
+    <net code="20" name="/OUT5'">
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(D1-COM)">
+      <node ref="D1" pin="3" pinfunction="COM" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D2-COM)">
+      <node ref="D2" pin="3" pinfunction="COM" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J1-Pin_10)">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(U1A-+)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U1B-+)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U1B--)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U1C--)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U1D--)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(U2A-+)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U2B-+)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U2B--)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U2C--)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U2D--)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="14" pintype="output"/>
+    </net>
+    <net code="36" name="unconnected-(J2-PadTN)">
+      <node ref="J2" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J3-PadTN)">
+      <node ref="J3" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J4-PadTN)">
+      <node ref="J4" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J5-PadTN)">
+      <node ref="J5" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J7-PadTN)">
+      <node ref="J7" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J8-PadTN)">
+      <node ref="J8" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J9-PadTN)">
+      <node ref="J9" pin="TN" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
