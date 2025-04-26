@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/pstiverson/Projects/AR-808/hardware/mult/mult.kicad_sch</source>
-    <date>Sat 20 Jul 2024 04:53:19 PM CDT</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <source>/home/pstiverson/Projects/AR-808/Eurorack/mult/mult.kicad_sch</source>
+    <date>Sat 26 Apr 2025 06:27:36 AM CDT</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -323,6 +323,102 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0f5f8e50-18c3-4e5b-8fdd-11dc1fe427d1</tstamps>
     </comp>
+    <comp ref="M1">
+      <value>Standoff</value>
+      <footprint>Eurorack:Standoff_M2.5x0.45-11mm</footprint>
+      <fields>
+        <field name="PartNum">732-10549-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Standoff" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="732-10549-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4ecd630-6682-4982-8acf-a43c09b2b273</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Standoff</value>
+      <footprint>Eurorack:Standoff_M2.5x0.45-11mm</footprint>
+      <fields>
+        <field name="PartNum">732-10549-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Standoff" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="732-10549-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>523a219d-b1e3-4ecf-9976-c70c2e8fb7de</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Screw</value>
+      <footprint>Eurorack:Screw_M2.5x0.45-6mm</footprint>
+      <fields>
+        <field name="PartNum">36-29301-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Screw" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="36-29301-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e9f1f6e-fb3b-4939-8827-1925700093b7</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Screw</value>
+      <footprint>Eurorack:Screw_M2.5x0.45-6mm</footprint>
+      <fields>
+        <field name="PartNum">36-29301-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Screw" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="36-29301-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67a5fb29-71cd-4092-9e80-a9d4784b4c7f</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>Screw</value>
+      <footprint>Eurorack:Screw_M2.5x0.45-6mm</footprint>
+      <fields>
+        <field name="PartNum">36-29301-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Screw" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="36-29301-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df1a5ed1-8b5e-4883-8a18-2740558655f2</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>Screw</value>
+      <footprint>Eurorack:Screw_M2.5x0.45-6mm</footprint>
+      <fields>
+        <field name="PartNum">36-29301-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Eurorack" part="Screw" description=""/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="PartNum" value="36-29301-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mult.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98e9d882-f0e0-4014-9881-9e7c298f675a</tstamps>
+    </comp>
     <comp ref="R1">
       <value>10</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
@@ -346,28 +442,6 @@
       <tstamps>67a39371-cbe9-4c23-91ef-6279bb65af46</tstamps>
     </comp>
     <comp ref="R3">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="mult.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6d1015bb-ef29-4c25-800f-cb0724cd642f</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="mult.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>42f6a241-e2f0-4254-9af0-110a48446b8a</tstamps>
-    </comp>
-    <comp ref="R5">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -378,7 +452,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fb718c68-281f-4068-a5cc-8f127099cf47</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R4">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -389,7 +463,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>53e3498c-1efb-4b33-86fc-158bea82b2f8</tstamps>
     </comp>
-    <comp ref="R7">
+    <comp ref="R5">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -400,29 +474,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4b685d38-65c2-49ea-a736-482eee1ac110</tstamps>
     </comp>
-    <comp ref="R8">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="mult.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f53493ae-cf54-442d-a856-1b79c4cd01ff</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="mult.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1ab72ae2-4b66-46f0-943b-40678b833d8a</tstamps>
-    </comp>
-    <comp ref="R10">
+    <comp ref="R6">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -433,7 +485,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>38b52044-3556-4786-804f-a89f9a07afb2</tstamps>
     </comp>
-    <comp ref="R11">
+    <comp ref="R7">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -444,7 +496,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c984ff5c-8664-4c38-8ad0-98aeb33ae2aa</tstamps>
     </comp>
-    <comp ref="R12">
+    <comp ref="R8">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -471,28 +523,60 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fd91ab54-c7f9-401a-a4d8-3f97e4aab904 c6c8e60e-0f8f-4e75-847b-d330f5767070 362b8f85-7dad-4163-90dc-8b9d21a7538c dbafda5b-7cf3-4a30-aff5-146b09a2e2f3 0ce1d15f-5594-4593-a61e-18c767f84149</tstamps>
+      <tstamps>fd91ab54-c7f9-401a-a4d8-3f97e4aab904 c6c8e60e-0f8f-4e75-847b-d330f5767070 dbafda5b-7cf3-4a30-aff5-146b09a2e2f3 362b8f85-7dad-4163-90dc-8b9d21a7538c 0ce1d15f-5594-4593-a61e-18c767f84149</tstamps>
     </comp>
     <comp ref="U2">
-      <value>TL074</value>
-      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <value>TL072</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <fields>
-        <field name="PartNum">595-TL074CDR</field>
+        <field name="PartNum">595-TL072CDR</field>
         <field name="Vendor">Mouser</field>
       </fields>
-      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="595-TL074CDR"/>
+      <property name="PartNum" value="595-TL072CDR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mult.kicad_sch"/>
-      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
-      <property name="ki_keywords" value="quad opamp"/>
+      <property name="ki_description" value="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5a5f303-94cc-4e1b-9932-6dac567713c2 a8e980fd-49e9-4263-ab12-a1bbd87f5f6b 93c5bf0c-01b5-4c92-b04e-eef074e15a4f 71586128-fbfd-4adc-b4e7-cf7b3155631e 07cc3859-ef5d-4de6-8f4f-c6e22bd63625</tstamps>
+      <tstamps>ae9494db-092d-40e8-8bda-1f3c70cf2693 82b421f5-55db-4afd-a76d-33e2363b4068 6510cdf0-dfd4-4786-9759-a24e0d351849</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Amplifier_Operational" part="TL072">
+      <description>Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Amplifier_Operational" part="TL074">
       <description>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</description>
       <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
@@ -687,6 +771,30 @@
         <pin num="1" name="1" type="output"/>
       </pins>
     </libpart>
+    <libpart lib="Eurorack" part="Screw">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Screw</field>
+      </fields>
+    </libpart>
+    <libpart lib="Eurorack" part="Standoff">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Standoff</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -714,7 +822,7 @@
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Eurorack">
-      <uri>/home/pstiverson/Projects/AR-808/hardware/EurorackKiCAD/Eurorack.kicad_sym</uri>
+      <uri>/home/pstiverson/Projects/AR-808/Eurorack/EurorackKiCAD/Eurorack.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
@@ -728,7 +836,7 @@
       <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
-      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="2" name="-12V">
       <node ref="C2" pin="2" pintype="passive"/>
@@ -737,7 +845,7 @@
       <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
-      <node ref="U2" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="4" name="/GND'">
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -757,7 +865,9 @@
     </net>
     <net code="6" name="/IN0'">
       <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
     <net code="7" name="/IN1">
       <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -765,7 +875,9 @@
     </net>
     <net code="8" name="/IN1'">
       <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
     </net>
     <net code="9" name="/OUT0">
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -773,7 +885,7 @@
     </net>
     <net code="10" name="/OUT0'">
       <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
     <net code="11" name="/OUT1">
       <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
@@ -781,7 +893,7 @@
     </net>
     <net code="12" name="/OUT1'">
       <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="13" name="/OUT2">
       <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -789,7 +901,7 @@
     </net>
     <net code="14" name="/OUT2'">
       <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="15" name="/OUT3">
       <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -797,7 +909,7 @@
     </net>
     <net code="16" name="/OUT3'">
       <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
     <net code="17" name="/OUT4">
       <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
@@ -805,7 +917,7 @@
     </net>
     <net code="18" name="/OUT4'">
       <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
     <net code="19" name="/OUT5">
       <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -813,7 +925,7 @@
     </net>
     <net code="20" name="/OUT5'">
       <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
     <net code="21" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -825,8 +937,6 @@
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
-      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
     </net>
     <net code="22" name="Net-(D1-COM)">
       <node ref="D1" pin="3" pinfunction="COM" pintype="passive"/>
@@ -846,79 +956,55 @@
       <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(U1A-+)">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="27" name="Net-(U1B-+)">
-      <node ref="R4" pin="2" pintype="passive"/>
+    <net code="26" name="Net-(U1A--)">
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
-      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
-      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
-      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="28" name="Net-(U1B--)">
+    <net code="27" name="Net-(U1B--)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
-    <net code="29" name="Net-(U1C--)">
-      <node ref="R6" pin="1" pintype="passive"/>
+    <net code="28" name="Net-(U1C--)">
+      <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pintype="output"/>
       <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
     </net>
-    <net code="30" name="Net-(U1D--)">
-      <node ref="R7" pin="1" pintype="passive"/>
+    <net code="29" name="Net-(U1D--)">
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
       <node ref="U1" pin="14" pintype="output"/>
     </net>
-    <net code="31" name="Net-(U2A-+)">
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="32" name="Net-(U2B-+)">
-      <node ref="R9" pin="2" pintype="passive"/>
+    <net code="30" name="Net-(U2A--)">
+      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pintype="output"/>
-      <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
-      <node ref="U2" pin="12" pinfunction="+" pintype="input"/>
-      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="33" name="Net-(U2B--)">
-      <node ref="R10" pin="1" pintype="passive"/>
+    <net code="31" name="Net-(U2B--)">
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U2" pin="7" pintype="output"/>
     </net>
-    <net code="34" name="Net-(U2C--)">
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="U2" pin="8" pintype="output"/>
-      <node ref="U2" pin="9" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="35" name="Net-(U2D--)">
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="U2" pin="13" pinfunction="-" pintype="input"/>
-      <node ref="U2" pin="14" pintype="output"/>
-    </net>
-    <net code="36" name="unconnected-(J2-PadTN)">
+    <net code="32" name="unconnected-(J2-PadTN)">
       <node ref="J2" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J3-PadTN)">
+    <net code="33" name="unconnected-(J3-PadTN)">
       <node ref="J3" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J4-PadTN)">
+    <net code="34" name="unconnected-(J4-PadTN)">
       <node ref="J4" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J5-PadTN)">
+    <net code="35" name="unconnected-(J5-PadTN)">
       <node ref="J5" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J7-PadTN)">
+    <net code="36" name="unconnected-(J7-PadTN)">
       <node ref="J7" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J8-PadTN)">
+    <net code="37" name="unconnected-(J8-PadTN)">
       <node ref="J8" pin="TN" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J9-PadTN)">
+    <net code="38" name="unconnected-(J9-PadTN)">
       <node ref="J9" pin="TN" pintype="passive+no_connect"/>
     </net>
   </nets>

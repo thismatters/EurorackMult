@@ -12,7 +12,7 @@ The KiCAD project here uses the library/footprints [found in my companion repo](
 
 ## Width
 
-11hp on an [Intellijel 1U rack](https://intellijel.com/support/1u-technical-specifications/).
+12hp on an [Intellijel 1U rack](https://intellijel.com/support/1u-technical-specifications/).
 
 ## Inputs
 
@@ -37,13 +37,11 @@ There are part numbers in the [BOM](mult.csv) for many of the parts (not for bas
 * [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. The [V0 circuit](https://oshpark.com/shared_projects/0YTEwnCD) has some issues (outlined below), use at your own risk.
 
 
-## Versions
+## Changelog
 
-### V0
-
-#### Bugs
-* This version was kind of a mess. To fix:
-  * remove first three pins from both TL074 ICs.
-  * Omit R3, R4, R8, and R9.
-  * Bridge pad 1 of U1 with the pad of R3 closes to the center of the module.
-  * Bridge pad 1 of U2 with the pad of R8 closest to the board edge.
+### V1
+- Removed extra Op Amp and replaced a TL074 with TL072
+- Removed several resistors
+- Updated design language
+- Added standoffs between component board and jack board (increased module width to accomodate)
+- Fixed some other bugs
